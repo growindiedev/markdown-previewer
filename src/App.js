@@ -32,14 +32,13 @@ function App() {
 						onChange={formik.handleChange}
 					/>
 				</div>
-
-				<div id="preview_wrapper" className="preview">
-					<div className="headbar">
-						<span>Preview</span>
-					</div>
-					<div id="preview" dangerouslySetInnerHTML={{ __html: marked(formik.values.editor) }} />
-				</div>
 			</form>
+			<div id="preview_wrapper" className="preview">
+				<div className="headbar">
+					<span>Preview</span>
+				</div>
+				<div id="preview" dangerouslySetInnerHTML={{ __html: marked(formik.values.editor) }} />
+			</div>
 		</div>
 	);
 }
