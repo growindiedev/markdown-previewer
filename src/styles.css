@@ -57,6 +57,7 @@ body,
 #preview {
 	font-family: 'Roboto', monospace;
 	height: 90%;
+	resize: none;
 	overflow-y: auto;
 	overflow-x: hidden;
 	font-size: 2rem;
