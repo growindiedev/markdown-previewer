@@ -5,10 +5,6 @@ import './styles.css';
 import placeholder from './placeholder';
 
 let marked = require('marked');
-//adjusts links in marked to make sure they open in new tab
-marked.setOptions({
-	breaks: true
-});
 
 function App() {
 	const formik = useFormik({
